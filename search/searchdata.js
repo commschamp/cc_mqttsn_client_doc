@@ -1,15 +1,16 @@
 var indexSectionsWithContent =
 {
-  0: "cmqrt",
+  0: "\"cm",
   1: "c",
-  2: "cm",
+  2: "c",
   3: "c",
-  4: "mqrt",
+  4: "m",
   5: "c",
   6: "c",
   7: "c",
   8: "c",
-  9: "m"
+  9: "\"",
+  10: "m"
 };
 
 var indexSectionNames =
@@ -23,7 +24,8 @@ var indexSectionNames =
   6: "enums",
   7: "enumvalues",
   8: "defines",
-  9: "pages"
+  9: "groups",
+  10: "pages"
 };
 
 var indexSectionLabels =
@@ -37,6 +39,7 @@ var indexSectionLabels =
   6: "Enumerations",
   7: "Enumerator",
   8: "Macros",
-  9: "Pages"
+  9: "Modules",
+  10: "Pages"
 };
 

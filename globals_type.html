@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MQTT-SN Client: File Members</title>
+<title>CommsChampion Ecosystem MQTT-SN Client: File Members</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">MQTT-SN Client
+   <div id="projectname">CommsChampion Ecosystem MQTT-SN Client
    </div>
    <div id="projectbrief">MQTT-SN client library.</div>
   </td>
@@ -63,38 +63,89 @@ $(function() {
 
 <div class="contents">
 &#160;<ul>
-<li>CC_MqttsnAsyncOpCompleteReportFn
-: <a class="el" href="common_8h.html#a80b5f29897c5847d866802d5fc2b01f9">common.h</a>
+<li>CC_MqttsnCancelNextTickWaitCb
+: <a class="el" href="group__client.html#gac9b867aa622afafdd4dd3d9579145a14">common.h</a>
 </li>
-<li>CC_MqttsnCancelNextTickWaitFn
-: <a class="el" href="common_8h.html#aa4255028569cebd49a2c9f91a88a551d">common.h</a>
+<li>CC_MqttsnClientHandle
+: <a class="el" href="group__client.html#gac0001ebe73d8670a38077f4206228ab1">common.h</a>
 </li>
-<li>CC_MqttsnGwDisconnectReportFn
-: <a class="el" href="common_8h.html#abeac4bccf47953a34f0f5008f378fb91">common.h</a>
+<li>CC_MqttsnConnectCompleteCb
+: <a class="el" href="group__connect.html#gaa0c8c4a83a7f57cb32ae6ecb03f1f6b0">common.h</a>
 </li>
-<li>CC_MqttsnGwStatusReportFn
-: <a class="el" href="common_8h.html#a46124bb97893415fc476d1aa7741293b">common.h</a>
+<li>CC_MqttsnConnectHandle
+: <a class="el" href="group__connect.html#ga2becb99684d975dd3c16a1234182ae54">common.h</a>
 </li>
-<li>CC_MqttsnMessageReportFn
-: <a class="el" href="common_8h.html#a662d0df0b6184165bee4e38fb3a46416">common.h</a>
+<li>CC_MqttsnDisconnectCompleteCb
+: <a class="el" href="group__disconnect.html#ga77fd0c9d60c5a1f7e85c24d93a56c89d">common.h</a>
 </li>
-<li>CC_MqttsnNextTickProgramFn
-: <a class="el" href="common_8h.html#a0b0fe6866977aa4517f427285461c511">common.h</a>
+<li>CC_MqttsnDisconnectHandle
+: <a class="el" href="group__disconnect.html#ga04022e3fd06ebba9a13832224f4c3ff3">common.h</a>
 </li>
-<li>CC_MqttsnSendOutputDataFn
-: <a class="el" href="common_8h.html#a2c6d708b891db25497bb002b71c96e01">common.h</a>
+<li>CC_MqttsnErrorLogCb
+: <a class="el" href="group__client.html#gace21abbdb49c64945708d5dc176cc212">common.h</a>
 </li>
-<li>CC_MqttsnSubscribeCompleteReportFn
-: <a class="el" href="common_8h.html#a962d62cfb560550fd4b0145c35b2e638">common.h</a>
+<li>CC_MqttsnGwDisconnectedReportCb
+: <a class="el" href="group__client.html#ga876378a44d1f41b8d4f3f019aeb65f9b">common.h</a>
+</li>
+<li>CC_MqttsnGwinfoDelayRequestCb
+: <a class="el" href="group__client.html#gad8c2590e8f5ba0f68382e6fd8003206c">common.h</a>
+</li>
+<li>CC_MqttsnGwStatusReportCb
+: <a class="el" href="group__client.html#ga37d8baab655d7ceb7e1bbf6088db30c4">common.h</a>
+</li>
+<li>CC_MqttsnMessageReportCb
+: <a class="el" href="group__client.html#ga75e88d1eb39e68b63724ecb7441d5254">common.h</a>
+</li>
+<li>CC_MqttsnNextTickProgramCb
+: <a class="el" href="group__client.html#ga8b45621ac2da99fbff143a403cd1bf51">common.h</a>
+</li>
+<li>CC_MqttsnPublishCompleteCb
+: <a class="el" href="group__publish.html#ga91e6e435fcbcdcbd719edbc8ac7e887b">common.h</a>
+</li>
+<li>CC_MqttsnPublishHandle
+: <a class="el" href="group__publish.html#ga028aeb1e89c70b73ac05f78c9b38f169">common.h</a>
+</li>
+<li>CC_MqttsnSearchCompleteCb
+: <a class="el" href="group__search.html#ga417426fc634862fd093224a4a7da74ac">common.h</a>
+</li>
+<li>CC_MqttsnSearchHandle
+: <a class="el" href="group__search.html#gaa79c418e536d423f55dba3da2f9db062">common.h</a>
+</li>
+<li>CC_MqttsnSendOutputDataCb
+: <a class="el" href="group__client.html#gaa370e3d3734f804f2d025f8067166909">common.h</a>
+</li>
+<li>CC_MqttsnSleepCompleteCb
+: <a class="el" href="group__sleep.html#gaa7369dece9e78d5cf38dad60c9c4adf8">common.h</a>
+</li>
+<li>CC_MqttsnSleepHandle
+: <a class="el" href="group__sleep.html#ga69272499b0af748dabaca44ecd88b622">common.h</a>
+</li>
+<li>CC_MqttsnSubscribeCompleteCb
+: <a class="el" href="group__subscribe.html#ga794c1ac19a6face4af37b07ec7b55137">common.h</a>
+</li>
+<li>CC_MqttsnSubscribeHandle
+: <a class="el" href="group__subscribe.html#ga7671bb34c5f4d33f498404fbe3c533c7">common.h</a>
 </li>
 <li>CC_MqttsnTopicId
-: <a class="el" href="common_8h.html#a1415fa19e7d527b679b647f4af1bc930">common.h</a>
+: <a class="el" href="group__global.html#ga1415fa19e7d527b679b647f4af1bc930">common.h</a>
+</li>
+<li>CC_MqttsnUnsubscribeCompleteCb
+: <a class="el" href="group__unsubscribe.html#gaffadde10c9df9c6c9337f5216236c327">common.h</a>
+</li>
+<li>CC_MqttsnUnsubscribeHandle
+: <a class="el" href="group__subscribe.html#ga02212232e0f2e963de716361b933ea6e">common.h</a>
+</li>
+<li>CC_MqttsnWillCompleteCb
+: <a class="el" href="group__will.html#gad80a332e9263c2bda5ced4bae3246e42">common.h</a>
+</li>
+<li>CC_MqttsnWillHandle
+: <a class="el" href="group__will.html#gab097f068640058b237cf1d681d80d7bc">common.h</a>
 </li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 13 2024 14:02:08 for MQTT-SN Client by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
